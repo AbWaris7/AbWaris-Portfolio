@@ -41,15 +41,17 @@ a {
   transition: var(--transition);
 }
 
-.header_social {
-  display: inline-block;
-}
-
 a:hover {
   color: var(--accent);
 }
-.header_social:hover {
-  color: var(--accent);
+
+.visually-hidden {
+  position: absolute;
+  left: -10000px;
+  top: auto;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
 }
 
 .wrapper {
@@ -66,11 +68,16 @@ a:hover {
 }
 
 /* HEADER */
-.header {
-}
+
 .header__home {
   font-size: 1.5rem;
   font-size: clamp(1.5rem, 1.0229007633587786rem + 2.035623409669211vw, 2rem);
   color: var(--text1);
   text-decoration: none;
+}
+.header_social {
+  display: inline-block;
+}
+.header_social:hover {
+  color: var(--accent);
 }

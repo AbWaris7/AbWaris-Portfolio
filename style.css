@@ -96,3 +96,15 @@ a:hover {
 
 .header__social:hover > svg > path {
   fill: var(--accent);
+}
+
+@media (min-width: 37.5em) {
+  .header__nav {
+    justify-content: flex-start;
+    text-align: left;
+  }
+  .header__home {
+    flex: 1;
+    margin-inline-end: auto;
+  }
+}

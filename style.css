@@ -69,12 +69,16 @@ a:hover {
 
 /* HEADER */
 
+.header {
+  margin-top: 20px;
+}
 
 .header__nav {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   text-align: center;
+  gap: 20px 25px;
 }
 
 .header__home {
